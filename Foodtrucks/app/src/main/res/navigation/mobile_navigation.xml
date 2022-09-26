@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.foodtrucks.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cuisine"
+        android:name="com.example.foodtrucks.ui.cuisine.CuisineFragment"
+        android:label="@string/menu_cuisine"
+        tools:layout="@layout/fragment_cuisine" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.example.foodtrucks.ui.support.SupportFragment"
+        android:label="@string/menu_support"
+        tools:layout="@layout/fragment_support" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.foodtrucks.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout"/>
+</navigation>

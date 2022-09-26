@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443793801461",
+    "project_id": "foodtruckslist",
+    "storage_bucket": "foodtruckslist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443793801461:android:64ab6f064934d7a5f345bc",
+        "android_client_info": {
+          "package_name": "com.example.foodtrucks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443793801461-n5o54fd0hoocspv861bl4tic1kf40ms2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO5hXkLkSbG9v4co8HYEGLhKrQCWGTNms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443793801461-n5o54fd0hoocspv861bl4tic1kf40ms2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

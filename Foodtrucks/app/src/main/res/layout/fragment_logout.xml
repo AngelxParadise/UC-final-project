@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".ui.logout.LogoutFragment">
+
+    <TextView
+        android:id="@+id/textViewtitle2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:fontFamily="cursive"
+        android:text="See you next time!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="148dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
